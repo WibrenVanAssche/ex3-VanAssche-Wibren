@@ -50,4 +50,6 @@ deze stuurt input door naar js file die berekend
 te krijgen op de originele pagina
 
 
+0:16 ==> genoeg gepruts voor 1 dag
+
 

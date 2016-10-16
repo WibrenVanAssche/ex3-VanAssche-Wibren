@@ -13,7 +13,7 @@ app.get("/", function (req, res) {
 app.post('/', function(req, res){
     var answer = eval(req.body.opdracht)
     console.log(answer)
-    res.body(document.getElementById("scherm").innerHTML = answer)
+    res.send(document.getElementById("scherm").innerHTML = answer)
 
 });
 app.listen(4567);
