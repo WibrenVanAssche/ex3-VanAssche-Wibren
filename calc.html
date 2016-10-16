@@ -33,16 +33,17 @@
             <title>calculator</title>
 
         </head>
-        <body>
-   <form method="post" action = "/" >
-        <table style="width:250px" id="table1">
-    <table align="center">
+        
+   
+ <form method="post" action = "/inputs" >    
+   <table style="width:250px" id="table1">
+   <table align="center">
     
     <tr>
         <td id="value" colspan="5"><p id="scherm">0</p></td>
     </tr>
     <tr >
-        <td ><button id="7" value="7" onclick="addtocommand(value)"> 7</button></td>
+        <td ><button id="7" value="7" onclick="addtocommand(value)">7</button></td>
         <td ><button id="8" value="8" onclick="addtocommand(value)">8</button></td>
         <td ><button id="9" value="9" onclick="addtocommand(value)">9</button></td>
         <td ><button id="*" value="*" onclick="addtocommand(value)">*</button></td>
@@ -70,56 +71,12 @@
         <td ><button id="-" value="-" onclick="addtocommand(value)">-</button></td>
     </tr>
     
-</table>
-        </form>
+    </table>   
 
+</form>
+       
 <script>
-
-    var command = "";
-
-    function addtocommand (a) {
-        if (a === "+" || a ==="-" ||a ==="/" || a ==="*" || a ===".") {
-            var b = "";
-            var b =command.substr(command.length - 1);
-            if ( b == "+" || b == "-" || b == "/" || b == "*" || b == ".") 
-               {alert("kies een geldige input");
-                
-            }
-
-            else {
-            command += a;
-            document.getElementById("scherm").innerHTML = command;
-            }
-
-        }
-        else{
-        command += a;
-        document.getElementById("scherm").innerHTML = command;
-        }
-    };
-
-    function calculate (){
-        answer = eval(command);
-        document.getElementById("scherm").innerHTML = answer;
-        command = answer.toString();
-
-    }
-
-    function backslash (){
-        command = command.slice(0,-1);
-        document.getElementById("scherm").innerHTML = command;
-    }
-
-    function reset () {
-        location.reload();
-    }
     
-    window.onerror = function(msg, linenumber) {
-    alert('Error message: '+msg);
-    return true;
-};
-    
-
 </script>
-    </body>
+
 </html>
