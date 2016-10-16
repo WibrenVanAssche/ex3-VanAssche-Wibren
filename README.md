@@ -13,5 +13,22 @@ niemand in de klas lijkt te weten wat we moeten doen en hoe we moeten beginnen a
 
 ALLES VERWIJDERD, opnieuw beginnen
 
+Opdracht beetje duidelijker geworden na gesprek met Peter Leriche op fb
+geen van beide idee hoe te beginnen$
+
+in les veel minder uitgebreid gezien
+
+denk dat het de bedoeling is om een url te kunnen maken waar bv in staat calc/2+4
+en dat deze dan 6 teruggeeft?
+niet zeker.
+
+
+idee
+/calc url aanmaken waar je via postman in bv het veld 'opdracht' 
+een rekensom kan ingeven.
+het veld uitkomst laten berekenen wat dit moet zijn
+
+
+
 
 
