@@ -10,11 +10,12 @@ app.get("/", function (req, res) {
     res.sendFile( __dirname + '/index.html');
     });
 
-app.post('/', function(request, response){
-    console.log(eval(request.body.opdracht));
-    ;
-});
+app.post('/', function(req, res){
+    var answer = eval(req.body.opdracht)
+    console.log(answer)
+    res.body(document.getElementById("scherm").innerHTML = answer)
 
+});
 app.listen(4567);
 
 

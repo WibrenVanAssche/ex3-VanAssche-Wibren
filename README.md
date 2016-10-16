@@ -42,7 +42,12 @@ TOCH ANDERS
 
 23:24 ==> eindelijk werkend iets
 
+html pagina voor inputs
+deze stuurt input door naar js file die berekend
+=> nu manier zoeken om antwoord fatsoenlijk weer te geven... lukt niet
 
+0:02 ==> nog steeds geen manier gevonden om de output op een 'schermpje'
+te krijgen op de originele pagina
 
 
 
