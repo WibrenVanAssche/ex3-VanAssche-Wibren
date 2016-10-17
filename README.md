@@ -82,4 +82,10 @@ Jonas lijkt een oplossing te hebben gevonden maar deze ligt ver buiten de scope
 van de vorige les en mijn kunnen. 
 
 
+20.52
+
+peter heeft manier gevonden om het wel via url te laten werken
+post naar get veranderen!
+
+
 

@@ -10,7 +10,7 @@ and open the template in the editor.
     </head>
     <body>
       
-    <input type="text" name="opdracht">
+    <input type="text" name="opdracht" id="veld">
     <input type="submit" value="Submit" onclick="gotourl()">
     
     
@@ -19,7 +19,7 @@ and open the template in the editor.
         <script>
             function gotourl (){
                 
-                var url = "localhost:4567/calc/:" + document.getElementById("member");
+                var url = "localhost:4567/calc/" + document.getElementById("veld").value();
                 window.location.href = url;
             }
           
