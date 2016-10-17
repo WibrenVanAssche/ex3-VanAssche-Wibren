@@ -52,7 +52,6 @@ te krijgen op de originele pagina
 
 0:16 ==> genoeg gepruts voor 1 dag
 
-8:31 ==> geen manier gevonden om 
 
 ---------------------------------------------------------
 
@@ -61,6 +60,12 @@ vb:
 localhost:4567/som
 
 hier de getallen naar posten (postman) en deze dan posten naar js
-hier dan berekening mee doen en terug sturen
+hier dan berekening mee doen en terug sturen (eerder idde dat ik had)
+
+11:50
+
+2de methode met behulp van sigurd is wat ik eerder al wou doen
+gewoon naar localhost:4567/som/*berekening* gaan en dan geeft hij 
+het antwoord weer
 
 

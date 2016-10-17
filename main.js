@@ -4,19 +4,31 @@ var app = new express();
 var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true })); 
 
+app.post('/', function (req, res) {
+    res.send('typ je opdracht in de adresbalk vb: /calc/2+5');
+    
+});
 
 
-app.post('/som', function (req, res) {
+app.post('/calc', function (req, res) {
+        
 	console.dir(req.body);  
-	var som = req.body.bodysom;
+	var calc = req.body.bodycalc;
 	
-        var solution = eval(req.body.bodysom);
-        console.dir(solution);
-        res.send(String(solution));
-})
+        var antwoord = eval(req.body.bodycalc);
+        console.dir(antwoord);
+        res.send(String(antwoord));
+});
+
+app.post('/calc/:opdracht',function(req, res){ 
+        var opdrachtlezen = req.params.opdracht;
+        console.log(req.params.opdracht);
+        var antwoord = eval(req.params.opdracht);
+        console.log(antwoord);
+        res.send(String(antwoord));
+});
 
 
 app.listen(4567);
 
 
-console.log("wat is dit zelfs");
