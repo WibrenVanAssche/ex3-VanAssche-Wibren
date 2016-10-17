@@ -64,8 +64,18 @@ hier dan berekening mee doen en terug sturen (eerder idde dat ik had)
 
 11:50
 
-2de methode met behulp van sigurd is wat ik eerder al wou doen
-gewoon naar localhost:4567/som/*berekening* gaan en dan geeft hij 
+2de methode met behulp van sigurd is wat ik eerder al wou doen,
+naar localhost:4567/som/*berekening* gaan en dan geeft hij 
 het antwoord weer
+
+19:25
+
+heb geprobeerd om index.html te laten navigeren naar een de url om 
+een oplossing weer te geven maar weet niet hoe ik om een 'post' kan vragen zonder
+de code gewoon te hertyppen in mijn html of weer hetzelfde te doen als in mijn eerste probeersel
+
+Jonas lijkt een oplossing te hebben gevonden maar deze ligt ver buiten de scope 
+van de vorige les. 
+
 
 

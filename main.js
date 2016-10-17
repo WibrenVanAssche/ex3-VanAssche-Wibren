@@ -8,7 +8,12 @@ app.post('/', function (req, res) {
     res.send('typ je opdracht in de adresbalk vb: /calc/2+5');
     
 });
-
+/*
+app.get("/", function (req, res) {
+    // __dirname = The name of the directory that the currently executing script resides in. https://nodejs.org/docs/latest/api/globals.html#globals_dirname
+   res.sendFile( __dirname + '/index.html');
+   });
+   */
 
 app.post('/calc', function (req, res) {
         

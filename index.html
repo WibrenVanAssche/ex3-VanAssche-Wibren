@@ -9,20 +9,20 @@ and open the template in the editor.
         
     </head>
     <body>
-        <form method="post" action="/">
+      
     <input type="text" name="opdracht">
-    <input type="submit" value="Submit">
-    </form>
-        <form method="get" action="/"> 
-    <table>
-        <tr>
-        <td id="value" colspan="5"><p id="scherm">0</p></td>
-    </tr>
-    </table>
+    <input type="submit" value="Submit" onclick="gotourl()">
+    
+    
              
-</form>
+
         <script>
-           
+            function gotourl (){
+                
+                var url = "localhost:4567/calc/:" + document.getElementById("member");
+                window.location.href = url;
+            }
+          
         </script>
     </body>
 </html>
