@@ -5,17 +5,17 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true })); 
 
 
-app.get("/", function (req, res) {
-    // __dirname = The name of the directory that the currently executing script resides in. https://nodejs.org/docs/latest/api/globals.html#globals_dirname
-    res.sendFile( __dirname + '/index.html');
-    });
 
-app.post('/', function(req, res){
-    var answer = eval(req.body.opdracht)
-    console.log(answer)
-    res.send(document.getElementById("scherm").innerHTML = answer)
+app.post('/som', function (req, res) {
+	console.dir(req.body);  
+	var som = req.body.bodysom;
+	
+        var solution = eval(req.body.bodysom);
+        console.dir(solution);
+        res.send(String(solution));
+})
 
-});
+
 app.listen(4567);
 
 
