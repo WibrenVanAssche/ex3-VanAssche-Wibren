@@ -60,13 +60,17 @@ vb:
 localhost:4567/som
 
 hier de getallen naar posten (postman) en deze dan posten naar js
-hier dan berekening mee doen en terug sturen (eerder idde dat ik had)
+hier dan berekening mee doen en terug sturen (eerder idde dat ik had).
+maakt wel nog steeds gebruik van de eval funtie. sigurd heeft alternatief genoemd in het
+'math' package maar dit lijk me op hetzelfde neer te komen.
+
 
 11:50
 
 2de methode met behulp van sigurd is wat ik eerder al wou doen,
 naar localhost:4567/som/*berekening* gaan en dan geeft hij 
 het antwoord weer
+
 
 19:25
 
@@ -75,7 +79,7 @@ een oplossing weer te geven maar weet niet hoe ik om een 'post' kan vragen zonde
 de code gewoon te hertyppen in mijn html of weer hetzelfde te doen als in mijn eerste probeersel
 
 Jonas lijkt een oplossing te hebben gevonden maar deze ligt ver buiten de scope 
-van de vorige les. 
+van de vorige les en mijn kunnen. 
 
 
 
