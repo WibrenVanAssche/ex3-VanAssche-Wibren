@@ -9,12 +9,12 @@ app.post('/', function (req, res) {
     
 });
 
-app.get("/", function (req, res) {
+/*app.get("/", function (req, res) {
     // __dirname = The name of the directory that the currently executing script resides in. https://nodejs.org/docs/latest/api/globals.html#globals_dirname
    res.sendFile( __dirname + '/index.html');
    });
   
-
+*/
 app.get('/calc', function (req, res) {
         
 	console.dir(req.body);  
